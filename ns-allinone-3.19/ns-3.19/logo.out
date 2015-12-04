@@ -1,0 +1,2326 @@
+Waf: Entering directory `/home/dhruvie/ns3/ns-allinone-3.19/ns-3.19/build'
+[1270/1695] cxx: src/internet/model/tcp-l4-protocol.cc -> build/src/internet/model/tcp-l4-protocol.cc.1.o
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:34:3: error: redeclaration of ‘CLOSED’
+   CLOSED,       // 0
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:42:3: note: previous declaration ‘ns3::TcpStates_t CLOSED’
+   CLOSED,       // 0
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:35:3: error: redeclaration of ‘LISTEN’
+   LISTEN,       // 1
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:43:3: note: previous declaration ‘ns3::TcpStates_t LISTEN’
+   LISTEN,       // 1
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:36:3: error: redeclaration of ‘SYN_SENT’
+   SYN_SENT,     // 2
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:44:3: note: previous declaration ‘ns3::TcpStates_t SYN_SENT’
+   SYN_SENT,     // 2
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:37:3: error: redeclaration of ‘SYN_RCVD’
+   SYN_RCVD,     // 3
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:45:3: note: previous declaration ‘ns3::TcpStates_t SYN_RCVD’
+   SYN_RCVD,     // 3
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:38:3: error: redeclaration of ‘ESTABLISHED’
+   ESTABLISHED,  // 4
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:46:3: note: previous declaration ‘ns3::TcpStates_t ESTABLISHED’
+   ESTABLISHED,  // 4
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:39:3: error: redeclaration of ‘CLOSE_WAIT’
+   CLOSE_WAIT,   // 5
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:47:3: note: previous declaration ‘ns3::TcpStates_t CLOSE_WAIT’
+   CLOSE_WAIT,   // 5
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:40:3: error: redeclaration of ‘LAST_ACK’
+   LAST_ACK,     // 6
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:48:3: note: previous declaration ‘ns3::TcpStates_t LAST_ACK’
+   LAST_ACK,     // 6
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:41:3: error: redeclaration of ‘FIN_WAIT_1’
+   FIN_WAIT_1,   // 7
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:49:3: note: previous declaration ‘ns3::TcpStates_t FIN_WAIT_1’
+   FIN_WAIT_1,   // 7
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:42:3: error: redeclaration of ‘FIN_WAIT_2’
+   FIN_WAIT_2,   // 8
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:50:3: note: previous declaration ‘ns3::TcpStates_t FIN_WAIT_2’
+   FIN_WAIT_2,   // 8
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:43:3: error: redeclaration of ‘CLOSING’
+   CLOSING,      // 9
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:51:3: note: previous declaration ‘ns3::TcpStates_t CLOSING’
+   CLOSING,      // 9
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:45:3: error: redeclaration of ‘LAST_STATE’
+   LAST_STATE } States_t;
+   ^
+In file included from ../src/internet/model/tcp-socket-base.h:28:0,
+                 from ../src/internet/model/tcp-newreno.h:24,
+                 from ../src/internet/model/tcp-l4-protocol.cc:43:
+./ns3/tcp-socket.h:53:3: note: previous declaration ‘ns3::TcpStates_t LAST_STATE’
+   LAST_STATE
+   ^
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h: In constructor ‘ns3::SA::SA()’:
+../src/internet/model/tcp-typedefs.h:87:50: error: cannot convert ‘ns3::TcpStates_t’ to ‘ns3::States_t’ in initialization
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+                                                  ^
+../src/internet/model/tcp-typedefs.h: At global scope:
+../src/internet/model/tcp-typedefs.h:98:46: error: type/value mismatch at argument 1 in template parameter list for ‘template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map’
+ typedef std::map<SequenceNumber, Ptr<Packet> > UnAckData_t;
+                                              ^
+../src/internet/model/tcp-typedefs.h:98:46: error:   expected a type, got ‘SequenceNumber’
+../src/internet/model/tcp-typedefs.h:98:46: error: template argument 3 is invalid
+../src/internet/model/tcp-typedefs.h:98:46: error: template argument 4 is invalid
+../src/internet/model/tcp-typedefs.h:98:59: error: invalid type in declaration before ‘;’ token
+ typedef std::map<SequenceNumber, Ptr<Packet> > UnAckData_t;
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc: In constructor ‘ns3::TcpStateMachine::TcpStateMachine()’:
+../src/internet/model/tcp-l4-protocol.cc:67:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][APP_LISTEN]  = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:67:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:68:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][APP_CONNECT] = SA (SYN_SENT, SYN_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:68:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:69:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][APP_SEND]    = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:69:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:70:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][SEQ_RECV]    = SA (CLOSED,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:70:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:71:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][APP_CLOSE]   = SA (CLOSED,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:71:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:72:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][TIMEOUT]     = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:72:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:73:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][ACK_RX]      = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:73:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:74:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][SYN_RX]      = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:74:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:75:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][SYN_ACK_RX]  = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:75:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:76:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][FIN_RX]      = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:76:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:77:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][FIN_ACK_RX]  = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:77:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:78:52: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][RST_RX]      = SA (CLOSED,   CANCEL_TM);
+                                                    ^
+../src/internet/model/tcp-l4-protocol.cc:78:52: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:79:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSED][BAD_FLAGS]   = SA (CLOSED,   RST_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:79:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:86:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][APP_LISTEN]  = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:86:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:87:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][APP_CONNECT] = SA (SYN_SENT, SYN_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:87:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:88:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][APP_SEND]    = SA (SYN_SENT, SYN_TX);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:88:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:89:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][SEQ_RECV]    = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:89:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:90:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][APP_CLOSE]   = SA (CLOSED,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:90:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:91:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][TIMEOUT]     = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:91:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:92:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][ACK_RX]      = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:92:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:93:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][SYN_RX]      = SA (LISTEN,   SYN_ACK_TX);//stay in listen and fork
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:93:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:94:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][SYN_ACK_RX]  = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:94:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:95:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][FIN_RX]      = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:95:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:96:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][FIN_ACK_RX]  = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:96:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:97:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][RST_RX]      = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:97:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:98:49: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LISTEN][BAD_FLAGS]   = SA (LISTEN,   NO_ACT);
+                                                 ^
+../src/internet/model/tcp-l4-protocol.cc:98:49: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:101:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][APP_LISTEN]  = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:101:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:102:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][APP_CONNECT] = SA (SYN_SENT,    SYN_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:102:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:103:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][APP_SEND]    = SA (SYN_SENT,    NO_ACT);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:103:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:104:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][SEQ_RECV]    = SA (ESTABLISHED, NEW_SEQ_RX);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:104:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:105:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][APP_CLOSE]   = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:105:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:106:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][TIMEOUT]     = SA (CLOSED,      NO_ACT);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:106:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:107:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][ACK_RX]      = SA (SYN_SENT,    NO_ACT);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:107:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:108:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][SYN_RX]      = SA (SYN_RCVD,    SYN_ACK_TX);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:108:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:109:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][SYN_ACK_RX]  = SA (ESTABLISHED, ACK_TX_1);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:109:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:110:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][FIN_RX]      = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:110:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:111:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][FIN_ACK_RX]  = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:111:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:112:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][RST_RX]      = SA (CLOSED,      APP_NOTIFY);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:112:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:113:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_SENT][BAD_FLAGS]   = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:113:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:116:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][APP_LISTEN]  = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:116:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:117:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][APP_CONNECT] = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:117:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:118:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][APP_SEND]    = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:118:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:119:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][SEQ_RECV]    = SA (ESTABLISHED, NEW_SEQ_RX);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:119:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:120:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][APP_CLOSE]   = SA (FIN_WAIT_1,  FIN_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:120:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:121:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][TIMEOUT]     = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:121:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:122:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][ACK_RX]      = SA (ESTABLISHED, SERV_NOTIFY);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:122:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:123:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][SYN_RX]      = SA (SYN_RCVD,    SYN_ACK_TX);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:123:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:124:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][SYN_ACK_RX]  = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:124:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:125:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][FIN_RX]      = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:125:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:126:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][FIN_ACK_RX]  = SA (CLOSE_WAIT,  PEER_CLOSE);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:126:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:127:57: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][RST_RX]      = SA (CLOSED,      CANCEL_TM);
+                                                         ^
+../src/internet/model/tcp-l4-protocol.cc:127:57: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:128:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[SYN_RCVD][BAD_FLAGS]   = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:128:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:131:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][APP_LISTEN] = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:131:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:132:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][APP_CONNECT]= SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:132:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:133:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][APP_SEND]   = SA (ESTABLISHED,TX_DATA);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:133:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:134:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][SEQ_RECV]   = SA (ESTABLISHED,NEW_SEQ_RX);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:134:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:135:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][APP_CLOSE]  = SA (FIN_WAIT_1, FIN_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:135:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:136:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][TIMEOUT]    = SA (ESTABLISHED,RETX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:136:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:137:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][ACK_RX]     = SA (ESTABLISHED,NEW_ACK);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:137:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:138:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][SYN_RX]     = SA (SYN_RCVD,   SYN_ACK_TX);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:138:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:139:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][SYN_ACK_RX] = SA (ESTABLISHED,NO_ACT);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:139:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:140:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][FIN_RX]     = SA (CLOSE_WAIT, PEER_CLOSE);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:140:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:141:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][FIN_ACK_RX] = SA (CLOSE_WAIT, PEER_CLOSE);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:141:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:142:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][RST_RX]     = SA (CLOSED,     CANCEL_TM);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:142:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:143:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[ESTABLISHED][BAD_FLAGS]  = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:143:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:146:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][APP_LISTEN]  = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:146:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:147:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][APP_CONNECT] = SA (SYN_SENT,   SYN_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:147:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:148:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][APP_SEND]    = SA (CLOSE_WAIT, TX_DATA);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:148:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:149:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][SEQ_RECV]    = SA (CLOSE_WAIT, NEW_SEQ_RX);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:149:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:150:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][APP_CLOSE]   = SA (LAST_ACK,   FIN_ACK_TX);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:150:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:151:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][TIMEOUT]     = SA (CLOSE_WAIT, NO_ACT);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:151:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:152:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][ACK_RX]      = SA (CLOSE_WAIT, NEW_ACK);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:152:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:153:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][SYN_RX]      = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:153:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:154:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][SYN_ACK_RX]  = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:154:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:155:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][FIN_RX]      = SA (CLOSE_WAIT, ACK_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:155:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:156:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][FIN_ACK_RX]  = SA (CLOSE_WAIT, ACK_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:156:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:157:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][RST_RX]      = SA (CLOSED,     CANCEL_TM);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:157:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:158:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSE_WAIT][BAD_FLAGS]   = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:158:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:161:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][APP_LISTEN]  = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:161:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:162:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][APP_CONNECT] = SA (SYN_SENT,    SYN_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:162:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:163:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][APP_SEND]    = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:163:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:164:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][SEQ_RECV]    = SA (LAST_ACK,    NEW_SEQ_RX);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:164:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:165:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][APP_CLOSE]   = SA (CLOSED,      NO_ACT);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:165:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:166:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][TIMEOUT]     = SA (CLOSED,      NO_ACT);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:166:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:167:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][ACK_RX]      = SA (LAST_ACK,    NO_ACT);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:167:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:168:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][FIN_ACKED]   = SA (CLOSED,      APP_CLOSED);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:168:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:169:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][SYN_RX]      = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:169:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:170:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][SYN_ACK_RX]  = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:170:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:171:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][FIN_RX]      = SA (LAST_ACK,    FIN_ACK_TX);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:171:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:172:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][FIN_ACK_RX]  = SA (CLOSED,      NO_ACT);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:172:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:173:57: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][RST_RX]      = SA (CLOSED,      CANCEL_TM);
+                                                         ^
+../src/internet/model/tcp-l4-protocol.cc:173:57: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:174:54: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[LAST_ACK][BAD_FLAGS]   = SA (CLOSED,      RST_TX);
+                                                      ^
+../src/internet/model/tcp-l4-protocol.cc:174:54: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:177:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][APP_LISTEN]  = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:177:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:178:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][APP_CONNECT] = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:178:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:179:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][APP_SEND]    = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:179:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:180:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][SEQ_RECV]    = SA (FIN_WAIT_1, NEW_SEQ_RX);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:180:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:181:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][APP_CLOSE]   = SA (FIN_WAIT_1, NO_ACT);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:181:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:182:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][TIMEOUT]     = SA (FIN_WAIT_1, NO_ACT);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:182:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:183:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][ACK_RX]      = SA (FIN_WAIT_1, NEW_ACK);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:183:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:184:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][FIN_ACKED]   = SA (FIN_WAIT_2, NEW_ACK);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:184:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:185:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][SYN_RX]      = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:185:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:186:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][SYN_ACK_RX]  = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:186:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:187:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][FIN_RX]      = SA (CLOSING,    ACK_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:187:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:189:58: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][RST_RX]      = SA (CLOSED,     CANCEL_TM);
+                                                          ^
+../src/internet/model/tcp-l4-protocol.cc:189:58: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:190:55: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_1][BAD_FLAGS]   = SA (CLOSED,     RST_TX);
+                                                       ^
+../src/internet/model/tcp-l4-protocol.cc:190:55: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:193:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][APP_LISTEN]  = SA (CLOSED,      RST_TX);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:193:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:194:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][APP_CONNECT] = SA (CLOSED,      RST_TX);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:194:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:195:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][APP_SEND]    = SA (CLOSED,      RST_TX);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:195:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:196:60: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][SEQ_RECV]    = SA (FIN_WAIT_2,  NEW_SEQ_RX);
+                                                            ^
+../src/internet/model/tcp-l4-protocol.cc:196:60: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:197:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][APP_CLOSE]   = SA (FIN_WAIT_2,  NO_ACT);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:197:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:198:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][TIMEOUT]     = SA (FIN_WAIT_2,  NO_ACT);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:198:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:199:57: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][ACK_RX]      = SA (FIN_WAIT_2,  NEW_ACK);
+                                                         ^
+../src/internet/model/tcp-l4-protocol.cc:199:57: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:200:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][SYN_RX]      = SA (CLOSED,      RST_TX);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:200:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:201:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][SYN_ACK_RX]  = SA (CLOSED,      RST_TX);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:201:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:204:59: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][RST_RX]      = SA (CLOSED,      CANCEL_TM);
+                                                           ^
+../src/internet/model/tcp-l4-protocol.cc:204:59: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:205:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[FIN_WAIT_2][BAD_FLAGS]   = SA (CLOSED,      RST_TX);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:205:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:208:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][APP_LISTEN]  = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:208:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:209:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][APP_CONNECT] = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:209:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:210:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][APP_SEND]    = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:210:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:211:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][SEQ_RECV]    = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:211:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:212:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][APP_CLOSE]   = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:212:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:213:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][TIMEOUT]     = SA (CLOSING,     NO_ACT);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:213:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:214:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][ACK_RX]      = SA (CLOSING,     NO_ACT);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:214:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:216:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][SYN_RX]      = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:216:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:217:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][SYN_ACK_RX]  = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:217:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:218:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][FIN_RX]      = SA (CLOSED,      ACK_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:218:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:219:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][FIN_ACK_RX]  = SA (CLOSED,      ACK_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:219:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:220:56: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][RST_RX]      = SA (CLOSED,      CANCEL_TM);
+                                                        ^
+../src/internet/model/tcp-l4-protocol.cc:220:56: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+../src/internet/model/tcp-l4-protocol.cc:221:53: error: no matching function for call to ‘ns3::SA::SA(ns3::TcpStates_t, ns3::Actions_t)’
+   aT[CLOSING][BAD_FLAGS]   = SA (CLOSED,      RST_TX);
+                                                     ^
+../src/internet/model/tcp-l4-protocol.cc:221:53: note: candidates are:
+In file included from ../src/internet/model/tcp-l4-protocol.cc:45:0:
+../src/internet/model/tcp-typedefs.h:88:3: note: ns3::SA::SA(ns3::States_t, ns3::Actions_t)
+   SA (States_t s, Actions_t a) : state (s), action (a) { }
+   ^
+../src/internet/model/tcp-typedefs.h:88:3: note:   no known conversion for argument 1 from ‘ns3::TcpStates_t’ to ‘ns3::States_t’
+../src/internet/model/tcp-typedefs.h:87:3: note: ns3::SA::SA()
+   SA () : state (LAST_STATE), action (LAST_ACTION) { }
+   ^
+../src/internet/model/tcp-typedefs.h:87:3: note:   candidate expects 0 arguments, 2 provided
+../src/internet/model/tcp-typedefs.h:84:7: note: ns3::SA::SA(const ns3::SA&)
+ class SA  // State/Action pair
+       ^
+../src/internet/model/tcp-typedefs.h:84:7: note:   candidate expects 1 argument, 2 provided
+Waf: Leaving directory `/home/dhruvie/ns3/ns-allinone-3.19/ns-3.19/build'
+Build failed
+ -> task in 'ns3-internet' failed (exit status 1): 
+	{task 140194905885648: cxx tcp-l4-protocol.cc -> tcp-l4-protocol.cc.1.o}
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-error=deprecated-declarations', '-fstrict-aliasing', '-Wstrict-aliasing', '-fPIC', '-pthread', '-I.', '-I..', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DHAVE_GSL=1', '../src/internet/model/tcp-l4-protocol.cc', '-c', '-o', 'src/internet/model/tcp-l4-protocol.cc.1.o']

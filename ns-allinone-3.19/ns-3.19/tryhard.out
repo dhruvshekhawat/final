@@ -1,0 +1,1026 @@
+Waf: Entering directory `/home/dhruvie/ns3/ns-allinone-3.19/ns-3.19/build'
+Waf: Leaving directory `/home/dhruvie/ns3/ns-allinone-3.19/ns-3.19/build'
+'build' finished successfully (8.161s)
+STATEMACHINE INITIALISED
+DEBUG: TCP Variant Assigned
+DEBUG:Two nodes were created
+DEBUG: Two nodes have been connected
+The initialize method of InternetStackHelper calls TCPL4protocol
+TcpL4Protocol:TcpL4Protocol()
+Made a TcpL4Protocol 0x12c2c70
+TcpL4Protocol:TcpL4Protocol()
+Made a TcpL4Protocol 0x12c1970
+DEBUG: Stack layers have been loaded on the two nodes
+DEBUG: IP addresses assigned to the two nodes
+DEBUG: Assigned port to sink(second) node
+0 [node 0] TcpL4Protocol:CreateSocket()
+TcpSocketBase:TcpSocketBase(0x12be200)
+TcpTahoe:TcpTahoe(0x12be200)
+DEBUG: Create method: Object-factory -> constructor of Tcp-Tahoe -> constructor of TCP sockbase
+Calls the createsocket method of TCPL4protocol for node(0)
+DEBUG: Custom application installed on first (sender) node
+DEBUG: start and stop time assigned for sender
+DEBUG: Now the simulation will run and Socket for node 1 will be created: DEFAULT
+0 [node 1] TcpL4Protocol:CreateSocket()
+TcpSocketBase:TcpSocketBase(0x12d2ff0)
+TcpTahoe:TcpTahoe(0x12d2ff0)
+DEBUG: Create method: Object-factory -> constructor of Tcp-Tahoe -> constructor of TCP sockbase
+ DEBUG: Inside bind now, assign an MAC address to the socket
+0 [node 1] TcpSocketBase:Bind(0x12d2ff0, 03-06-00:00:00:00:90:1f)
+0 [node 1] TcpL4Protocol:Allocate(0x12c1970, 8080)
+0 [node 1] TcpSocketBase 0x12d2ff0 got an endpoint: 0x131b3c0
+0 [node 1] TcpSocketBase:SetupCallback(0x12d2ff0)
+0 [node 1] TcpTahoe:Listen(0x12d2ff0)
+0 [node 1] TcpSocketBase:Listen(0x12d2ff0)
+0 [node 1] TcpSocketBase:ProcessEvent(0x12d2ff0, 0)
+0 [node 1] Processing Event: APP_LISTEN
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089c20, 0, 0)
+0 [node 1] CLOSED=====>LISTEN
+
+0 [node 1] State Transition Action: NO_ACT
+
+0 [node 1] TcpSocketBase:ProcessAction(0x12d2ff0, 0)
+0 [node 1] TcpSocketBase:ShutdownSend(0x12d2ff0)
+1 [node 0] TcpSocketBase:Bind(0x12be200)
+1 [node 0] TcpL4Protocol:Allocate()
+1 [node 0] TcpSocketBase:SetupCallback(0x12be200)
+1 [node 0] TcpTahoe:Connect(0x12be200, 03-06-0a:01:01:02:90:1f)
+DEBUG: cwnd was traced
+Connecting to MAC address of receiver
+1 [node 0] TcpSocketBase:Connect(0x12be200, 03-06-0a:01:01:02:90:1f)
+1 [node 0] TcpSocketBase:SetupEndpoint(0x12be200)
+1 [node 0] Route exists
+DEBUG: Calling doconnect method from connect
+1 [node 0] TcpSocketBase:DoConnect(0x12be200)
+Inside doconnect(): A new connection is allowed only if this socket does not have a connection
+1 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 1)
+1 [node 0] Processing Event: APP_CONNECT
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089b80, 0, 1)
+1 [node 0] CLOSED=====>SYN_SENT
+
+1 [node 0] State Transition Action: SYN_TX
+
+1 [node 0] TcpSocketBase:ProcessAction(0x12be200, 4)
+1 [node 0] Action Description: Send an empty ACK packet
+
+1 [node 0] TcpSocketBase:SendEmptyPacket(0x12be200, 2)
+1 [node 0] Action 1. Prepare packet by setting seq, ack no., options, flags etc. 
+Action 2. Set src, dest port
+Action 3. Set window size using rwind
+Action 4. Schedule RETx timer and finally send the packet
+
+1 [node 0] TcpL4Protocol 0x12c2c70 sending seq 0 ack 0 flags 2 data size 0
+1 [node 0] TcpL4Protocol:SendPacket(0x12c2c70, 0x12bf4a0, 10.1.1.1, 10.1.1.2, 0)
+1 [node 0] DEBUG: Sent the data to bottom layers. Bye Bye data
+
+
+1 [node 0] Schedule retransmission timeout at time 1 to expire at time 4
+1 [node 0] TcpSocketBase:Send(0x12be200, 0x12bf4a0)
+DEBUG: Storing data in transmission buffer
+1.00012 [node 0] TcpSocketBase:Send(0x12be200, 0x12bfea0)
+DEBUG: Storing data in transmission buffer
+1.00023 [node 0] TcpSocketBase:Send(0x12be200, 0x12bf3b0)
+DEBUG: Storing data in transmission buffer
+1.00035 [node 0] TcpSocketBase:Send(0x12be200, 0x12d33b0)
+DEBUG: Storing data in transmission buffer
+1.00047 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3460)
+DEBUG: Storing data in transmission buffer
+1.00058 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3510)
+DEBUG: Storing data in transmission buffer
+1.0007 [node 0] TcpSocketBase:Send(0x12be200, 0x12d35c0)
+DEBUG: Storing data in transmission buffer
+1.00082 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3670)
+DEBUG: Storing data in transmission buffer
+1.00093 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3720)
+DEBUG: Storing data in transmission buffer
+1.00105 [node 0] TcpSocketBase:Send(0x12be200, 0x12d37d0)
+DEBUG: Storing data in transmission buffer
+1.00117 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3880)
+DEBUG: Storing data in transmission buffer
+1.00128 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3930)
+DEBUG: Storing data in transmission buffer
+1.0014 [node 0] TcpSocketBase:Send(0x12be200, 0x12d39e0)
+DEBUG: Storing data in transmission buffer
+1.00152 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3a90)
+DEBUG: Storing data in transmission buffer
+1.00164 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3b40)
+DEBUG: Storing data in transmission buffer
+1.00175 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3bf0)
+DEBUG: Storing data in transmission buffer
+1.00187 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3ca0)
+DEBUG: Storing data in transmission buffer
+1.00199 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3d50)
+DEBUG: Storing data in transmission buffer
+1.0021 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3e00)
+DEBUG: Storing data in transmission buffer
+1.00222 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3eb0)
+DEBUG: Storing data in transmission buffer
+1.00234 [node 0] TcpSocketBase:Send(0x12be200, 0x12d3f60)
+DEBUG: Storing data in transmission buffer
+1.00245 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4010)
+DEBUG: Storing data in transmission buffer
+1.00257 [node 0] TcpSocketBase:Send(0x12be200, 0x12d40c0)
+DEBUG: Storing data in transmission buffer
+1.00269 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4170)
+DEBUG: Storing data in transmission buffer
+1.0028 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4220)
+DEBUG: Storing data in transmission buffer
+1.00292 [node 0] TcpSocketBase:Send(0x12be200, 0x12d42d0)
+DEBUG: Storing data in transmission buffer
+1.00304 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4380)
+DEBUG: Storing data in transmission buffer
+1.00315 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4430)
+DEBUG: Storing data in transmission buffer
+1.00327 [node 0] TcpSocketBase:Send(0x12be200, 0x12d44e0)
+DEBUG: Storing data in transmission buffer
+1.00339 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4590)
+DEBUG: Storing data in transmission buffer
+1.0035 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4640)
+DEBUG: Storing data in transmission buffer
+1.00362 [node 0] TcpSocketBase:Send(0x12be200, 0x12d46f0)
+DEBUG: Storing data in transmission buffer
+1.00374 [node 0] TcpSocketBase:Send(0x12be200, 0x12d47a0)
+DEBUG: Storing data in transmission buffer
+1.00385 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4850)
+DEBUG: Storing data in transmission buffer
+1.00397 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4900)
+DEBUG: Storing data in transmission buffer
+1.00409 [node 0] TcpSocketBase:Send(0x12be200, 0x12d49b0)
+DEBUG: Storing data in transmission buffer
+1.0042 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4a60)
+DEBUG: Storing data in transmission buffer
+1.00432 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4b10)
+DEBUG: Storing data in transmission buffer
+1.00444 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4bc0)
+DEBUG: Storing data in transmission buffer
+1.00456 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4c70)
+DEBUG: Storing data in transmission buffer
+1.00467 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4d20)
+DEBUG: Storing data in transmission buffer
+1.00479 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4dd0)
+DEBUG: Storing data in transmission buffer
+1.00491 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4e80)
+DEBUG: Storing data in transmission buffer
+1.00502 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4f30)
+DEBUG: Storing data in transmission buffer
+1.00507 [node 1] TcpL4Protocol:Receive(0x12c1970, 0x12d5050, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 40 10.1.1.1 > 10.1.1.2, 0x12bd9b0)
+1.00507 [node 1] TcpL4Protocol 0x12c1970 receiving seq 0 ack 0 flags 2 data size 20
+1.00507 [node 1] TcpL4Protocol 0x12c1970 received a packet
+1.00507 [node 1] TcpL4Protocol 0x12c1970 forwarding up to endpoint/socket
+1.00507 [node 1] Socket 0x12d2ff0 forward up from PeerAdd:PeerPort  0.0.0.0:0 to LocalAdd:LocalPort0.0.0.0:8080
+1.00507 [node 1] Action 1. Peel header and check flags, options and Estimate RTT
+Action 2. Update Rx window
+Action 3. If rwind !=0 cancel the persist timer
+Action 4.Check the set flags in header and set event accordingly and process action
+
+1.00507 [node 1] 0x12d2ff0 Leaving zerowindow persist state
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:FlagsEvent(0x12fb0a0, )
+1.00507 [node 1] TcpSocketBase:ProcessEvent(0x12d2ff0, 6)
+1.00507 [node 1] Processing Event: SYN_RX
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089ac0, 1, 6)
+1.00507 [node 1] LISTEN=====>SYN_RCVD
+
+1.00507 [node 1] State Transition Action: SYN_ACK_TX
+
+1.00507 [node 1] Socket 0x12d2ff0 processing pkt action, 5 current state 3
+1.00507 [node 1] Action description: Fork a socket to handle data transmission
+
+1.00507 [node 1] TcpSocketBase:TcpSocketBase(0x1344d40)
+1.00507 [node 1] Invoked the copy constructor
+1.00507 [node 1] TcpTahoe:TcpTahoe(0x1344d40)
+1.00507 [node 1] Invoked the copy constructor
+1.00507 [node 1] Cloned a TcpSocketBase 0x1344d40
+1.00507 [node 1] Action 1. Update count of connection retries
+Action 1. Advance the next Rx Sequnce no. by 1
+
+1.00507 [node 1] TcpL4Protocol:Allocate(0x12c1970, 10.1.1.2, 8080, 10.1.1.1, 49153)
+1.00507 [node 1] TcpSocketBase:SetupCallback(0x1344d40)
+1.00507 [node 1] TcpSocketBase:SendEmptyPacket(0x1344d40, 18)
+1.00507 [node 1] Action 1. Prepare packet by setting seq, ack no., options, flags etc. 
+Action 2. Set src, dest port
+Action 3. Set window size using rwind
+Action 4. Schedule RETx timer and finally send the packet
+
+1.00507 [node 1] TcpL4Protocol 0x12c1970 sending seq 0 ack 1 flags 12 data size 0
+1.00507 [node 1] TcpL4Protocol:SendPacket(0x12c1970, 0x12d5170, 10.1.1.2, 10.1.1.1, 0)
+1.00507 [node 1] DEBUG: Sent the data to bottom layers. Bye Bye data
+
+
+1.00507 [node 1] Schedule retransmission timeout at time 1.00507 to expire at time 4.00507
+1.00514 [node 0] TcpSocketBase:Send(0x12be200, 0x12d5050)
+DEBUG: Storing data in transmission buffer
+1.00526 [node 0] TcpSocketBase:Send(0x12be200, 0x12d5170)
+DEBUG: Storing data in transmission buffer
+1.00537 [node 0] TcpSocketBase:Send(0x12be200, 0x12bfd00)
+DEBUG: Storing data in transmission buffer
+1.00549 [node 0] TcpSocketBase:Send(0x12be200, 0x12be140)
+DEBUG: Storing data in transmission buffer
+1.00561 [node 0] TcpSocketBase:Send(0x12be200, 0x13454e0)
+DEBUG: Storing data in transmission buffer
+1.00572 [node 0] TcpSocketBase:Send(0x12be200, 0x1345590)
+DEBUG: Storing data in transmission buffer
+1.00584 [node 0] TcpSocketBase:Send(0x12be200, 0x1345640)
+DEBUG: Storing data in transmission buffer
+1.00596 [node 0] TcpSocketBase:Send(0x12be200, 0x13456f0)
+DEBUG: Storing data in transmission buffer
+1.00607 [node 0] TcpSocketBase:Send(0x12be200, 0x13457a0)
+DEBUG: Storing data in transmission buffer
+1.00619 [node 0] TcpSocketBase:Send(0x12be200, 0x1345850)
+DEBUG: Storing data in transmission buffer
+1.00631 [node 0] TcpSocketBase:Send(0x12be200, 0x1345900)
+DEBUG: Storing data in transmission buffer
+1.00642 [node 0] TcpSocketBase:Send(0x12be200, 0x13459b0)
+DEBUG: Storing data in transmission buffer
+1.00654 [node 0] TcpSocketBase:Send(0x12be200, 0x1345a60)
+DEBUG: Storing data in transmission buffer
+1.00666 [node 0] TcpSocketBase:Send(0x12be200, 0x1345b10)
+DEBUG: Storing data in transmission buffer
+1.00677 [node 0] TcpSocketBase:Send(0x12be200, 0x1345bc0)
+DEBUG: Storing data in transmission buffer
+1.00689 [node 0] TcpSocketBase:Send(0x12be200, 0x1345c70)
+DEBUG: Storing data in transmission buffer
+1.00701 [node 0] TcpSocketBase:Send(0x12be200, 0x1345d20)
+DEBUG: Storing data in transmission buffer
+1.00712 [node 0] TcpSocketBase:Send(0x12be200, 0x1345dd0)
+DEBUG: Storing data in transmission buffer
+1.00724 [node 0] TcpSocketBase:Send(0x12be200, 0x1345e80)
+DEBUG: Storing data in transmission buffer
+1.00736 [node 0] TcpSocketBase:Send(0x12be200, 0x1345f30)
+DEBUG: Storing data in transmission buffer
+1.00748 [node 0] TcpSocketBase:Send(0x12be200, 0x1345fe0)
+DEBUG: Storing data in transmission buffer
+1.00759 [node 0] TcpSocketBase:Send(0x12be200, 0x1346090)
+DEBUG: Storing data in transmission buffer
+1.00771 [node 0] TcpSocketBase:Send(0x12be200, 0x1346140)
+DEBUG: Storing data in transmission buffer
+1.00783 [node 0] TcpSocketBase:Send(0x12be200, 0x13461f0)
+DEBUG: Storing data in transmission buffer
+1.00794 [node 0] TcpSocketBase:Send(0x12be200, 0x13462a0)
+DEBUG: Storing data in transmission buffer
+1.00806 [node 0] TcpSocketBase:Send(0x12be200, 0x1346350)
+DEBUG: Storing data in transmission buffer
+1.00818 [node 0] TcpSocketBase:Send(0x12be200, 0x1346400)
+DEBUG: Storing data in transmission buffer
+1.00829 [node 0] TcpSocketBase:Send(0x12be200, 0x13464b0)
+DEBUG: Storing data in transmission buffer
+1.00841 [node 0] TcpSocketBase:Send(0x12be200, 0x1346560)
+DEBUG: Storing data in transmission buffer
+1.00853 [node 0] TcpSocketBase:Send(0x12be200, 0x1346610)
+DEBUG: Storing data in transmission buffer
+1.00864 [node 0] TcpSocketBase:Send(0x12be200, 0x13466c0)
+DEBUG: Storing data in transmission buffer
+1.00876 [node 0] TcpSocketBase:Send(0x12be200, 0x1346770)
+DEBUG: Storing data in transmission buffer
+1.00888 [node 0] TcpSocketBase:Send(0x12be200, 0x1346820)
+DEBUG: Storing data in transmission buffer
+1.00899 [node 0] TcpSocketBase:Send(0x12be200, 0x13468d0)
+DEBUG: Storing data in transmission buffer
+1.00911 [node 0] TcpSocketBase:Send(0x12be200, 0x1346980)
+DEBUG: Storing data in transmission buffer
+1.00923 [node 0] TcpSocketBase:Send(0x12be200, 0x1346a30)
+DEBUG: Storing data in transmission buffer
+1.00934 [node 0] TcpSocketBase:Send(0x12be200, 0x1346ae0)
+DEBUG: Storing data in transmission buffer
+1.00946 [node 0] TcpSocketBase:Send(0x12be200, 0x1346b90)
+DEBUG: Storing data in transmission buffer
+1.00958 [node 0] TcpSocketBase:Send(0x12be200, 0x1346c40)
+DEBUG: Storing data in transmission buffer
+1.00969 [node 0] TcpSocketBase:Send(0x12be200, 0x1346cf0)
+DEBUG: Storing data in transmission buffer
+1.00981 [node 0] TcpSocketBase:Send(0x12be200, 0x1346da0)
+DEBUG: Storing data in transmission buffer
+1.00993 [node 0] TcpSocketBase:Send(0x12be200, 0x1346e50)
+DEBUG: Storing data in transmission buffer
+1.01004 [node 0] TcpSocketBase:Send(0x12be200, 0x1346f00)
+DEBUG: Storing data in transmission buffer
+1.01013 [node 0] TcpL4Protocol:Receive(0x12c2c70, 0x1347020, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 40 10.1.1.2 > 10.1.1.1, 0x12c17b0)
+1.01013 [node 0] TcpL4Protocol 0x12c2c70 receiving seq 0 ack 1 flags 12 data size 20
+1.01013 [node 0] TcpL4Protocol 0x12c2c70 received a packet
+1.01013 [node 0] TcpL4Protocol 0x12c2c70 forwarding up to endpoint/socket
+1.01013 [node 0] Socket 0x12be200 forward up from PeerAdd:PeerPort  10.1.1.2:8080 to LocalAdd:LocalPort10.1.1.1:49153
+1.01013 [node 0] Action 1. Peel header and check flags, options and Estimate RTT
+Action 2. Update Rx window
+Action 3. If rwind !=0 cancel the persist timer
+Action 4.Check the set flags in header and set event accordingly and process action
+
+1.01013 [node 0] 0x12be200 Leaving zerowindow persist state
+TcpL4Protocol:FlagsEvent(0x12fb0a0, )
+1.01013 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 7)
+1.01013 [node 0] Processing Event: SYN_ACK_RX
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089ac0, 2, 7)
+1.01013 [node 0] SYN_SENT=====>ESTABLISHED
+
+1.01013 [node 0] State Transition Action: ACK_TX_1
+
+1.01013 [node 0] TcpSocketBase 0x12be200 Connected!
+1.01013 [node 0] Socket 0x12be200 processing pkt action, 2 current state 4
+1.01013 [node 0] Action 1. Cancel ReTx timeout and Increment Rx expected seq by 1
+Action 2. Send empty ACK packet and start filling the TX buffer
+
+1.01013 [node 0] TcpSocketBase:SendEmptyPacket(0x12be200, 16)
+1.01013 [node 0] Action 1. Prepare packet by setting seq, ack no., options, flags etc. 
+Action 2. Set src, dest port
+Action 3. Set window size using rwind
+Action 4. Schedule RETx timer and finally send the packet
+
+1.01013 [node 0] TcpL4Protocol 0x12c2c70 sending seq 1 ack 1 flags 10 data size 0
+1.01013 [node 0] TcpL4Protocol:SendPacket(0x12c2c70, 0x12d4fe0, 10.1.1.1, 10.1.1.2, 0)
+1.01013 [node 0] DEBUG: Sent the data to bottom layers. Bye Bye data
+
+
+1.01013 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 14)
+1.01013 [node 0] Processing Event: FORCED_TRANS
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089770, 4, 14)
+1.01013 [node 0] ESTABLISHED=====>IDLE_S
+
+1.01013 [node 0] State Transition Action: TX_DATA
+
+1.01013 [node 0] TcpSocketBase:ProcessAction(0x12be200, 10)
+1.01013 [node 0] Action description:Try to send pending data in Tx buffer
+1.01013 [node 0] Action 1. Checks the available window size
+Action 2. Sends the data as long as available window allows, (through while loop)
+1.01013 [node 0] TcpSocketBase:SendPendingData(0x12be200, 1)
+DEBUG: LOOPING IN WHILE LOOP : 
+1.01013 [node 0] TcpSocketBase:AvailableWindow()
+1.01013 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01013 [node 0] TcpTahoe:Window(0x12be200)
+1.01013 [node 0] UnAckCount=0, Win=536
+1.01013 [node 0] TcpSocketBase 0x12be200 SendPendingData rxwin 65535w536 segsize 536 nextTxSeq 1 highestRxAck 1 pd->Size 127020 pd->SFS 127020
+1.01013 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 15)
+1.01013 [node 0] Processing Event: CHECK_NAGLE
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a0892d0, 22, 15)
+1.01013 [node 0] IDLE_S=====>SEND
+
+1.01013 [node 0] State Transition Action: NAGLE_ACTION
+
+1.01013 [node 0] TcpSocketBase:ProcessAction(0x12be200, 20)
+1.01013 [node 0] Action Description:Checks the available window.
+1.If window is less than segmentsize and bytes in buffer then STOP
+1. If buffer has unacked data and data is less than one segment invoke Nagle algorithm
+
+1.01013 [node 0] TcpSocketBase:AvailableWindow()
+1.01013 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01013 [node 0] TcpTahoe:Window(0x12be200)
+1.01013 [node 0] UnAckCount=0, Win=536
+w= 536, segmentsize=536, Bytes in Txbuffer127020
+1.01013 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 16)
+1.01013 [node 0] Processing Event: SEND_DATA
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a0892d0, 18, 16)
+1.01013 [node 0] SEND=====>IDLE_S
+
+1.01013 [node 0] State Transition Action: SEND_DATA_ACTION
+
+1.01013 [node 0] TcpSocketBase:ProcessAction(0x12be200, 21)
+1.01013 [node 0] Action description:1.Send no more than the window, SDP() returns no. of bytes sent
+2. Advance the next seq number to be sent
+
+1.01013 [node 0] TcpSocketBase:AvailableWindow()
+1.01013 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01013 [node 0] TcpTahoe:Window(0x12be200)
+1.01013 [node 0] UnAckCount=0, Win=536
+1.01013 [node 0] TcpSocketBase:SendDataPacket(0x12be200, 1, 536, 1)
+1.01013 [node 0] Action 1. Copy the data (seq,seq+maxsize) from Tx buffer
+Action 2. Prepare a full packet.
+Action 3. Add the src, dest port and set the window size using r_wind
+Act 4. Schedule ReTx timeout and set the highest seq no. ever sent
+1.01013 [node 0] 0x12be200 SendDataPacket Schedule ReTxTimeout at time 1.01013 to expire at time 2.01013
+1.01013 [node 0] Send packet via TcpL4Protocol with flags 0x10
+1.01013 [node 0] TcpL4Protocol 0x12c2c70 sending seq 1 ack 1 flags 10 data size 536
+1.01013 [node 0] TcpL4Protocol:SendPacket(0x12c2c70, 0x12d4fe0, 10.1.1.1, 10.1.1.2, 0)
+1.01013 [node 0] DEBUG: Sent the data to bottom layers. Bye Bye data
+
+
+DEBUG: LOOPING IN WHILE LOOP : 
+1.01013 [node 0] TcpSocketBase:AvailableWindow()
+1.01013 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01013 [node 0] TcpTahoe:Window(0x12be200)
+1.01013 [node 0] UnAckCount=536, Win=536
+1.01013 [node 0] TcpSocketBase 0x12be200 SendPendingData rxwin 65535w0 segsize 536 nextTxSeq 537 highestRxAck 1 pd->Size 127020 pd->SFS 126484
+1.01013 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 15)
+1.01013 [node 0] Processing Event: CHECK_NAGLE
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a0892d0, 22, 15)
+1.01013 [node 0] IDLE_S=====>SEND
+
+1.01013 [node 0] State Transition Action: NAGLE_ACTION
+
+1.01013 [node 0] TcpSocketBase:ProcessAction(0x12be200, 20)
+1.01013 [node 0] Action Description:Checks the available window.
+1.If window is less than segmentsize and bytes in buffer then STOP
+1. If buffer has unacked data and data is less than one segment invoke Nagle algorithm
+
+1.01013 [node 0] TcpSocketBase:AvailableWindow()
+1.01013 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01013 [node 0] TcpTahoe:Window(0x12be200)
+1.01013 [node 0] UnAckCount=536, Win=536
+w= 0, segmentsize=536, Bytes in Txbuffer126484
+Stopped sending. Has to wait for higher Tx window OR amount of data to be sent is < 1 segment
+1.01013 [node 0] *******SENDPENDINGDATA sent 1 packets****************************************
+1.01013 [node 0] TcpSocketBase:GetTxAvailable(0x12be200)
+1.01013 [node 0] TcpSocketBase:GetTxAvailable(0x12be200)
+1.01013 [node 0] TcpSocketBase:GetTxAvailable(0x12be200)
+1.01013 [node 0] TcpSocketBase:GetTxAvailable(0x12be200)
+1.01016 [node 0] TcpSocketBase:Send(0x12be200, 0x1347140)
+DEBUG: Storing data in transmission buffer
+1.01016 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 14)
+1.01016 [node 0] Processing Event: FORCED_TRANS
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089d40, 22, 14)
+1.01016 [node 0] IDLE_S=====>IDLE_S
+
+1.01016 [node 0] State Transition Action: TX_DATA
+
+1.01016 [node 0] TcpSocketBase:ProcessAction(0x12be200, 10)
+1.01016 [node 0] Action description:Try to send pending data in Tx buffer
+1.01016 [node 0] Action 1. Checks the available window size
+Action 2. Sends the data as long as available window allows, (through while loop)
+1.01016 [node 0] TcpSocketBase:SendPendingData(0x12be200, 1)
+DEBUG: LOOPING IN WHILE LOOP : 
+1.01016 [node 0] TcpSocketBase:AvailableWindow()
+1.01016 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01016 [node 0] TcpTahoe:Window(0x12be200)
+1.01016 [node 0] UnAckCount=536, Win=536
+1.01016 [node 0] TcpSocketBase 0x12be200 SendPendingData rxwin 65535w0 segsize 536 nextTxSeq 537 highestRxAck 1 pd->Size 128480 pd->SFS 127944
+1.01016 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 15)
+1.01016 [node 0] Processing Event: CHECK_NAGLE
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a0898a0, 22, 15)
+1.01016 [node 0] IDLE_S=====>SEND
+
+1.01016 [node 0] State Transition Action: NAGLE_ACTION
+
+1.01016 [node 0] TcpSocketBase:ProcessAction(0x12be200, 20)
+1.01016 [node 0] Action Description:Checks the available window.
+1.If window is less than segmentsize and bytes in buffer then STOP
+1. If buffer has unacked data and data is less than one segment invoke Nagle algorithm
+
+1.01016 [node 0] TcpSocketBase:AvailableWindow()
+1.01016 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01016 [node 0] TcpTahoe:Window(0x12be200)
+1.01016 [node 0] UnAckCount=536, Win=536
+w= 0, segmentsize=536, Bytes in Txbuffer127944
+Stopped sending. Has to wait for higher Tx window OR amount of data to be sent is < 1 segment
+1.01016 [node 0] *******SENDPENDINGDATA sent 0 packets****************************************
+1.01028 [node 0] TcpSocketBase:Send(0x12be200, 0x12d4fe0)
+DEBUG: Storing data in transmission buffer
+1.01028 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 14)
+1.01028 [node 0] Processing Event: FORCED_TRANS
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089d40, 22, 14)
+1.01028 [node 0] IDLE_S=====>IDLE_S
+
+1.01028 [node 0] State Transition Action: TX_DATA
+
+1.01028 [node 0] TcpSocketBase:ProcessAction(0x12be200, 10)
+1.01028 [node 0] Action description:Try to send pending data in Tx buffer
+1.01028 [node 0] Action 1. Checks the available window size
+Action 2. Sends the data as long as available window allows, (through while loop)
+1.01028 [node 0] TcpSocketBase:SendPendingData(0x12be200, 1)
+DEBUG: LOOPING IN WHILE LOOP : 
+1.01028 [node 0] TcpSocketBase:AvailableWindow()
+1.01028 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01028 [node 0] TcpTahoe:Window(0x12be200)
+1.01028 [node 0] UnAckCount=536, Win=536
+1.01028 [node 0] TcpSocketBase 0x12be200 SendPendingData rxwin 65535w0 segsize 536 nextTxSeq 537 highestRxAck 1 pd->Size 129940 pd->SFS 129404
+1.01028 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 15)
+1.01028 [node 0] Processing Event: CHECK_NAGLE
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a0898a0, 22, 15)
+1.01028 [node 0] IDLE_S=====>SEND
+
+1.01028 [node 0] State Transition Action: NAGLE_ACTION
+
+1.01028 [node 0] TcpSocketBase:ProcessAction(0x12be200, 20)
+1.01028 [node 0] Action Description:Checks the available window.
+1.If window is less than segmentsize and bytes in buffer then STOP
+1. If buffer has unacked data and data is less than one segment invoke Nagle algorithm
+
+1.01028 [node 0] TcpSocketBase:AvailableWindow()
+1.01028 [node 0] TcpSocketBase:UnAckDataCount(0x12be200)
+DEBUG: Inside TCPtahoe window method
+1.01028 [node 0] TcpTahoe:Window(0x12be200)
+1.01028 [node 0] UnAckCount=536, Win=536
+w= 0, segmentsize=536, Bytes in Txbuffer129404
+Stopped sending. Has to wait for higher Tx window OR amount of data to be sent is < 1 segment
+1.01028 [node 0] *******SENDPENDINGDATA sent 0 packets****************************************
+1.0104 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01051 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01063 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01075 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01086 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01098 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0111 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01121 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01133 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01145 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01156 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01168 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0118 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01191 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01203 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01215 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01226 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01238 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0125 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01261 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01273 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01285 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01296 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01308 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0132 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01332 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01343 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01355 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01367 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01378 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0139 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01402 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01413 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01425 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01437 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01448 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0146 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01472 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01483 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01495 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01507 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01518 [node 0] TcpSocketBase:Send(0x12be200, 0x13471b0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0152 [node 1] TcpL4Protocol:Receive(0x12c1970, 0x1347020, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 40 10.1.1.1 > 10.1.1.2, 0x12bd9b0)
+1.0152 [node 1] TcpL4Protocol 0x12c1970 receiving seq 1 ack 1 flags 10 data size 20
+1.0152 [node 1] TcpL4Protocol 0x12c1970 received a packet
+1.0152 [node 1] TcpL4Protocol 0x12c1970 forwarding up to endpoint/socket
+1.0152 [node 1] Socket 0x1344d40 forward up from PeerAdd:PeerPort  10.1.1.1:49153 to LocalAdd:LocalPort10.1.1.2:8080
+1.0152 [node 1] Action 1. Peel header and check flags, options and Estimate RTT
+Action 2. Update Rx window
+Action 3. If rwind !=0 cancel the persist timer
+Action 4.Check the set flags in header and set event accordingly and process action
+
+TcpL4Protocol:FlagsEvent(0x12fb0a0, )
+1.0152 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 5)
+1.0152 [node 1] Processing Event: ACK_RX
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089ac0, 3, 5)
+1.0152 [node 1] SYN_RCVD=====>ESTABLISHED
+
+1.0152 [node 1] State Transition Action: SERV_NOTIFY
+
+1.0152 [node 1] Socket 0x1344d40 processing pkt action, 15 current state 4
+1.0152 [node 1] TcpSocketBase 0x1344d40 Action SERV_NOTIFY
+1.0152 [node 1] TcpSocketBase 0x1344d40 Connected!
+1.0152 [node 1] TcpSocketBase:Notify_sender(0x1344d40, 49153 > 8080 [ ACK ] Seq=1 Ack=1 Win=65535)
+1.0152 [node 1] TcpSocketBase:ReceivedAck(0x1344d40, 49153 > 8080 [ ACK ] Seq=1 Ack=1 Win=65535)
+1.0152 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 21)
+1.0152 [node 1] Processing Event: ACK_CHECK
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a0892f0, 4, 21)
+1.0152 [node 1] ESTABLISHED=====>IDLE_R
+
+1.0152 [node 1] State Transition Action: ACK_CHECK_ACTION
+
+1.0152 [node 1] Action description:1. Ignore if no ACK flag
+2. Ignore if old ACK
+3. Check if Dup ACK
+
+1.0152 [node 1] TcpSocketBase:GetTxAvailable(0x1344d40)
+1.0152 [node 1] TcpSocketBase:GetTxAvailable(0x1344d40)
+1.0153 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01542 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01553 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01565 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01577 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01588 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.016 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01612 [node 0] TcpSocketBase:Send(0x12be200, 0x1347370)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01613 [node 1] TcpL4Protocol:Receive(0x12c1970, 0x1347020, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 576 10.1.1.1 > 10.1.1.2, 0x12bd9b0)
+1.01613 [node 1] TcpL4Protocol 0x12c1970 receiving seq 1 ack 1 flags 10 data size 556
+1.01613 [node 1] TcpL4Protocol 0x12c1970 received a packet
+1.01613 [node 1] TcpL4Protocol 0x12c1970 forwarding up to endpoint/socket
+1.01613 [node 1] Socket 0x1344d40 forward up from PeerAdd:PeerPort  10.1.1.1:49153 to LocalAdd:LocalPort10.1.1.2:8080
+1.01613 [node 1] Action 1. Peel header and check flags, options and Estimate RTT
+Action 2. Update Rx window
+Action 3. If rwind !=0 cancel the persist timer
+Action 4.Check the set flags in header and set event accordingly and process action
+
+TcpL4Protocol:FlagsEvent(0x12fb0a0, )
+1.01613 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 5)
+1.01613 [node 1] Processing Event: ACK_RX
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089ac0, 23, 5)
+1.01613 [node 1] IDLE_R=====>IDLE_R
+
+1.01613 [node 1] State Transition Action: NEW_ACK
+
+1.01613 [node 1] Socket 0x1344d40 processing pkt action, 8 current state 23
+1.01613 [node 1] TcpSocketBase:ReceivedAck(0x1344d40, 49153 > 8080 [ ACK ] Seq=1 Ack=1 Win=65535)
+1.01613 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 21)
+1.01613 [node 1] Processing Event: ACK_CHECK
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089580, 23, 21)
+1.01613 [node 1] IDLE_R=====>IDLE_R
+
+1.01613 [node 1] State Transition Action: ACK_CHECK_ACTION
+
+1.01613 [node 1] Action description:1. Ignore if no ACK flag
+2. Ignore if old ACK
+3. Check if Dup ACK
+
+THE ACK HAD DATA PIGGYBACKED
+1.01613 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 24)
+1.01613 [node 1] Processing Event: DATA_RECV
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089580, 23, 24)
+1.01613 [node 1] IDLE_R=====>DATA_RECEIVED
+
+1.01613 [node 1] State Transition Action: DATA_RECEIVED_ACTION
+
+1.01613 [node 1] Action description: Call the function to take care Event: DATA_RECV
+
+1.01613 [node 1] Action 1: Puts the data in the Rx buffer
+Action 2: Notify the app of data reception
+
+1.01613 [node 1] TcpSocketBase:ReceivedData(0x1344d40, 49153 > 8080 [ ACK ] Seq=1 Ack=1 Win=65535)
+1.01613 [node 1] seq 1 ack 1 pkt size 536
+1.01613 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 19)
+1.01613 [node 1] Processing Event: CHECK_RX_BUFFER
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089030, 13, 19)
+1.01613 [node 1] DATA_RECEIVED=====>CHECK_REC
+
+1.01613 [node 1] State Transition Action: RX_BUFFER_ACTIONS
+
+1.01613 [node 1] Action 1: Checks if buffer is full or not
+Action 2. Send ACK for all received data
+Check something and schedule delayed ACK?
+
+1.01613 [node 1] TcpSocketBase:SendEmptyPacket(0x1344d40, 16)
+1.01613 [node 1] Action 1. Prepare packet by setting seq, ack no., options, flags etc. 
+Action 2. Set src, dest port
+Action 3. Set window size using rwind
+Action 4. Schedule RETx timer and finally send the packet
+
+1.01613 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 14)
+1.01613 [node 1] Processing Event: FORCED_TRANS
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a088900, 20, 14)
+1.01613 [node 1] CHECK_REC=====>SCHEDULE_ACK
+
+1.01613 [node 1] State Transition Action: NO_ACT
+
+1.01613 [node 1] TcpSocketBase:ProcessAction(0x1344d40, 0)
+1.01613 [node 1] TcpL4Protocol 0x12c1970 sending seq 1 ack 537 flags 10 data size 0
+1.01613 [node 1] TcpL4Protocol:SendPacket(0x12c1970, 0x12d6200, 10.1.1.2, 10.1.1.1, 0)
+1.01613 [node 1] DEBUG: Sent the data to bottom layers. Bye Bye data
+
+
+1.01613 [node 1] TcpSocketBase:ProcessEvent(0x1344d40, 17)
+1.01613 [node 1] Processing Event: NOTIFY_APP
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089030, 19, 17)
+1.01613 [node 1] SCHEDULE_ACK=====>IDLE_R
+
+1.01613 [node 1] State Transition Action: NOTIFY_APP_ACTION
+
+1.01613 [node 1] Action description: Called because data was received. 1. Notify app that some data has been received
+2. If FIN was received last, then check if all data has been received and Peer Close
+
+1.01613 [node 1] TcpSocketBase:RecvFrom(0x1344d40, 4294967295, 0)
+1.01613 [node 1] TcpSocketBase:Recv(0x1344d40)
+1.01613 [node 1] TcpSocketBase:RecvFrom(0x1344d40, 4294967295, 0)
+1.01613 [node 1] TcpSocketBase:Recv(0x1344d40)
+1.01624 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01635 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01647 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01659 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0167 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01682 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01694 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01705 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01717 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01729 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0174 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01752 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01764 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01775 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01787 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01799 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0181 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01822 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01834 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01845 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01857 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01869 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.0188 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01892 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01904 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01916 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01927 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01939 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01951 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01962 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01974 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01986 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.01997 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02009 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02021 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02032 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02044 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02056 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02067 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02079 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02091 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02102 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02114 [node 0] TcpSocketBase:Send(0x12be200, 0x1346fb0)
+DEBUG: Storing data in transmission buffer
+inside mtxbuffer : BUFFER FULL
+1.02119 [node 0] TcpL4Protocol:Receive(0x12c2c70, 0x1347020, tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 40 10.1.1.2 > 10.1.1.1, 0x12c17b0)
+1.02119 [node 0] TcpL4Protocol 0x12c2c70 receiving seq 1 ack 537 flags 10 data size 20
+1.02119 [node 0] TcpL4Protocol 0x12c2c70 received a packet
+1.02119 [node 0] TcpL4Protocol 0x12c2c70 forwarding up to endpoint/socket
+1.02119 [node 0] Socket 0x12be200 forward up from PeerAdd:PeerPort  10.1.1.2:8080 to LocalAdd:LocalPort10.1.1.1:49153
+1.02119 [node 0] Action 1. Peel header and check flags, options and Estimate RTT
+Action 2. Update Rx window
+Action 3. If rwind !=0 cancel the persist timer
+Action 4.Check the set flags in header and set event accordingly and process action
+
+1.02119 [node 0] TcpSocketBase:EstimateRtt(0x12be200, +11059198.0ns)
+TcpL4Protocol:FlagsEvent(0x12fb0a0, )
+1.02119 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 5)
+1.02119 [node 0] Processing Event: ACK_RX
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089ac0, 22, 5)
+1.02119 [node 0] IDLE_S=====>IDLE_S
+
+1.02119 [node 0] State Transition Action: NEW_ACK
+
+1.02119 [node 0] Socket 0x12be200 processing pkt action, 8 current state 22
+1.02119 [node 0] TcpSocketBase:ReceivedAck(0x12be200, 8080 > 49153 [ ACK ] Seq=1 Ack=537 Win=65535)
+1.02119 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 21)
+1.02119 [node 0] Processing Event: ACK_CHECK
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089580, 22, 21)
+1.02119 [node 0] IDLE_S=====>IDLE_S
+
+1.02119 [node 0] State Transition Action: ACK_CHECK_ACTION
+
+1.02119 [node 0] Action description:1. Ignore if no ACK flag
+2. Ignore if old ACK
+3. Check if Dup ACK
+
+1.02119 [node 0] New ack of 537
+RTT estimated, window updates, options read
+1.02119 [node 0] TcpSocketBase:ProcessEvent(0x12be200, 14)
+1.02119 [node 0] Processing Event: FORCED_TRANS
+
+TcpL4Protocol:TcpStateMachine()
+STATEMACHINE INITIALISED
+TcpL4Protocol:Lookup(0x7ffd8a089580, 12, 14)
+1.02119 [node 0] RECEIVED_ACK=====>CHECK
+
+1.02119 [node 0] State Transition Action: SS_CWND1
+
+1.02119 [node 0] Action Description: Update cwnd and ssthresh

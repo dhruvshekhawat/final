@@ -1,0 +1,4 @@
+Waf: Entering directory `/home/dhruvie/ns3/ns-allinone-3.19/ns-3.19/build'
+Waf: Leaving directory `/home/dhruvie/ns3/ns-allinone-3.19/ns-3.19/build'
+'build' finished successfully (0.808s)
+Command ['/home/dhruvie/ns3/ns-allinone-3.19/ns-3.19/build/scratch/fifth'] terminated with signal SIGSEGV. Run it under a debugger to get more information (./waf --run <program> --command-template="gdb --args %s <args>").
